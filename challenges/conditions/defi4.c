@@ -1,7 +1,7 @@
 #include <stdio.h>
  int main(){
 
-    // with if statement
+    // with if statement <-
      
     float Moyenne;
     printf("Entrer votre Moyenne :");
@@ -18,9 +18,10 @@
     }
 
      
+   
 
-  
-
+    // with switch case <-
+    
     int n;
     printf("Entrez votre  Moyenne : ");
     scanf("%d", &n);
