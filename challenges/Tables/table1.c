@@ -3,14 +3,14 @@
 
 int main(){
 
-     //  Initialisation et Affichage <-
+    //  Initialisation et Affichage <-
 
     int tableaux[] = {1,2,3,4,5};
     for(int i=0;i<5;i++){
         printf("%d",tableaux[i]);
     }
 
-     //Saisie et Affichage des Éléments <-
+    // 2 Saisie et Affichage des Éléments <-
     
     int tab1[2];
     for(int i=0;i<2;i++){
@@ -22,7 +22,7 @@ int main(){
         printf("%d",tab1[i]);
     }
 
-    // Somme des Éléments <-
+    // 3 Somme des Éléments <-
 
     int tab2[] ={6,2};
     int somme = 0;
@@ -34,7 +34,7 @@ int main(){
 
 
 
-   // Multiplication des Éléments <-
+   // 4 Multiplication des Éléments <-
 
     int facteur;
     printf("entere le facteur :");
@@ -46,8 +46,14 @@ int main(){
      multi= facteur*tab6[i];
      printf("%d * %d = %d\n",facteur,tab6[i],multi);
     }
+
     
-   
+     
+           
+
+
+
+
      
     
 
