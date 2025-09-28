@@ -6,7 +6,7 @@ char Livres[2][4][100];
 int nbrLivres = 2;
 
 void Ajouter(){
-   
+    
 
     for (int i = 0; i < 2; i++) {
         printf("Entrez le titre du livre %d : ", i + 1);
@@ -174,7 +174,8 @@ int main(){
     choix ++;
     }while(choix != 0);
 
-
+   
+    //
 
   
 
