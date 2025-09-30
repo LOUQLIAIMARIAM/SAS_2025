@@ -1,0 +1,1 @@
+   nom[strcspn(nom, "\n")] = '\0';  // Supprimer le saut de ligne
